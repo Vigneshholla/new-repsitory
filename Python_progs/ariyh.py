@@ -8,8 +8,8 @@ print("sum=",add(a,b))
 
 def sub(n1,n2):
     return(n1-n2)
-print("dor subtraction")
-print('for Division')
+print("for subtraction")
+
 a=int(input("Enter num1:"))
 b=int(input("Enter num2:"))
 print("sum=",sub(a,b))
@@ -21,6 +21,16 @@ print("for multiplication")
 a=int(input("Enter num1:"))
 b=int(input("Enter num2:"))
 print("sum=",multi(a,b))
+
+
+def divi(n1,n2):
+    return(n1/n2)
+print("for Division")
+
+a=int(input("Enter num1:"))
+b=int(input("Enter num2:"))
+print("sum=",divi(a,b))
+
 
 
 
