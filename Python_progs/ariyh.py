@@ -23,13 +23,15 @@ b=int(input("Enter num2:"))
 print("sum=",multi(a,b))
 
 
-def multi(n1,n2):
-    return(n1*n2)
-print("for multiplication")
-)
+def divi(n1,n2):
+    return(n1/n2)
+print("for Division")
+
 a=int(input("Enter num1:"))
 b=int(input("Enter num2:"))
-print("sum=",multi(a,b))
+print("sum=",divi(a,b))
+
+
 
 
 
