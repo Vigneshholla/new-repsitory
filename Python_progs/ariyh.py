@@ -31,11 +31,16 @@ a=int(input("Enter num1:"))
 b=int(input("Enter num2:"))
 print("sum=",divi(a,b))
 
-def sqr(n)
+def sqr(n):
     return(n*n)
 print("Squaring")
  a=int(input("Enter a number"))
 print("sum=",sqr(a))
 
+def skr(n):
+    return(n**n)
+print("Squaring")
+ a=int(input("Enter a number"))
+print("sum=",skr(a))
 
 
