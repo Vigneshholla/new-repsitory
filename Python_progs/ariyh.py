@@ -43,4 +43,9 @@ print("Squaring")
  a=int(input("Enter a number"))
 print("sum=",skr(a))
 
+def rmd(n):
+   return(n%2)
+
+ a=int(input("Enter a number"))
+print(rmd(a))
 
